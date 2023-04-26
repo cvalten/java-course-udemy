@@ -10,13 +10,10 @@ public class challangeSection4 {
         int remainder = (int) (sum1 % 40);
         System.out.println("Remainder is:" + remainder);
         //Step 5 - Boolean  & 6, show bool
-        boolean remainderTrue = false;
-        if ((remainder == 0.00)) {
-            remainderTrue = true;
-        }
+        boolean remainderTrue = remainder == 0;
         System.out.println("Remainder output: " +remainderTrue);
         //Step 7, if-then statement
-        if(remainderTrue == false){
+        if(!remainderTrue){
             System.out.println("Got some remainder");
         }
     }
